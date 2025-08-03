@@ -1,0 +1,70 @@
+<!DOCTYPE html><html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movahhed Design</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Tahoma, sans-serif;
+      background-color: #f9f9f9;
+      color: #222;
+    }
+    header {
+      background-color: #2c3e50; /* زنگالی */
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #34495e;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      color: #2c3e50;
+    }
+    .contact {
+      background-color: #ecf0f1;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Movahhed Design</h1>
+    <p>خدمات حرفه‌ای طراحی گرافیک</p>
+  </header>  <nav>
+    <a href="#services">خدمات</a>
+    <a href="#contact">تماس با ما</a>
+  </nav>  <section id="services">
+    <h2>خدمات ما</h2>
+    <ul>
+      <li>طراحی لوگو</li>
+      <li>طراحی بروشور</li>
+      <li>کارت ویزیت</li>
+      <li>طرح‌های تبلیغاتی دیگر</li>
+    </ul>
+  </section>  <section id="contact" class="contact">
+    <h2>تماس با ما</h2>
+    <p>شماره تماس: <strong>09937162230</strong></p>
+  </section>
+</body>
+</html>
